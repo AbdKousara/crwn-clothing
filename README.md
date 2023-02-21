@@ -1,6 +1,6 @@
 # CRWN Clothing - React E-commerce Project
 
-This is a React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items. This project was developed as part of a Udemy course called Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL), but it can also be used as a standalone project.
+This is a React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items. 🛍 🤑
 
 ### Features
 
