@@ -12,6 +12,7 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
+  // put your own config object from the firebase here
   apiKey: 'AIzaSyDrhlGcmVcZzOkLFJuGCOfnpgALB19AnkQ',
   authDomain: 'crwn-db-3d5f3.firebaseapp.com',
   projectId: 'crwn-db-3d5f3',
