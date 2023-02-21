@@ -37,7 +37,7 @@ git clone https://github.com/AbdoKousara/crwn-clothing.git
 
 replace the config variable in your `firebase.utils.js` with your own config object from the firebase dashboard! Navigate to the project settings gear icon > project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
 
-<img alt='firebase dashboard' src='https://user-images.githubusercontent.com/10578605/157999158-10e921cc-9ee5-46f6-a0c5-1ae5686f54f3.png' width=300px />
+<img alt='firebase dashboard' src='https://user-images.githubusercontent.com/10578605/157999158-10e921cc-9ee5-46f6-a0c5-1ae5686f54f3.png' width=700px />
 
 4. Run the project locally using `npm run start` or `yarn start`.
 
