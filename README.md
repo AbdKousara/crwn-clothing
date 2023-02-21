@@ -21,9 +21,10 @@ This is a React e-commerce project called CRWN Clothing, which provides an onlin
 
 ## Getting Started
 
-1. Clone the repository onto your local machine using
+1.  Clone the repository onto your local machine using
    the following command:
-   ```sh
+
+   ```bash
    git clone https://github.com/AbdoKousara/crwn-clothing.git
    ```
-2. Install the necessary dependencies using `npm install` or `yarn install`.
+2.  Install the necessary dependencies using `npm install` or `yarn install`.
