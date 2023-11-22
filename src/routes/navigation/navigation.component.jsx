@@ -18,13 +18,15 @@ import {
   NavLink,
   NavLinks,
 } from './navigation.styles';
+import {selectIsCartOpen} from "../../store/cart/cart.selector";
 
 
 
 const Navigation = () => {
  // const { currentUser } = useContext(UserContext);
   const currentUser = useSelector(selectCurrentUser)
-  const { isCartOpen } = useContext(CartContext);
+  const isCartOpen = useSelector(selectIsCartOpen)
+  //const { isCartOpen } = useContext(CartContext);
 
   return (
     <Fragment>
