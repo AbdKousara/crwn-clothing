@@ -1,5 +1,5 @@
 import { takeLatest, put, all, call} from 'redux-saga/effects';
-import {USER_ACTION_TYPE} from "./user.types";
+import {USER_ACTION_TYPES} from "./user.types";
 import {
     createAuthUserWithEmailAndPassword,
     createUserDocumentFromAuth,
@@ -71,27 +71,27 @@ export function* signOut(){
 }
 
 export function*  onGoogleSignInStart()  {
-    yield takeLatest(USER_ACTION_TYPE.GOOGLE_SIGN_IN_START, signInWithGoogle)
+    yield takeLatest(USER_ACTION_TYPES.GOOGLE_SIGN_IN_START, signInWithGoogle)
 }
 
 export function* onCheckUserSession() {
-    yield takeLatest(USER_ACTION_TYPE.CHECK_USER_SESSION, isUserAuthenticated)
+    yield takeLatest(USER_ACTION_TYPES.CHECK_USER_SESSION, isUserAuthenticated)
 }
 
 export function* onEmailSignInStart() {
-    yield takeLatest(USER_ACTION_TYPE.EMAIL_SIGN_IN_START, signInWithEmail)
+    yield takeLatest(USER_ACTION_TYPES.EMAIL_SIGN_IN_START, signInWithEmail)
 }
 
 export function* onSignUpStart() {
-    yield takeLatest(USER_ACTION_TYPE.SIGN_UP_START, signUp)
+    yield takeLatest(USER_ACTION_TYPES.SIGN_UP_START, signUp)
 }
 
 export function* onSignUpSuccess() {
-    yield takeLatest(USER_ACTION_TYPE.SIGN_UP_SUCCESS, signInAfterSignUp)
+    yield takeLatest(USER_ACTION_TYPES.SIGN_UP_SUCCESS, signInAfterSignUp)
 }
 
 export function* onSignOutStart() {
-    yield takeLatest(USER_ACTION_TYPE.SIGN_OUT_START, signOut)
+    yield takeLatest(USER_ACTION_TYPES.SIGN_OUT_START, signOut)
 }
 
 export function*  userSagas(){
